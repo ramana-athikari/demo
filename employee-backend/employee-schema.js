@@ -7,7 +7,7 @@ const tableStructure = new mongoose.Schema({
     f_Mobile    : { type: Number, required: true },
     f_Designation: { type: String, required: true },
     f_Gender    : { type: String, required: true },
-    f_Course    : { type: Array, required: true },
+    f_Course    : { type: String, required: true },
     f_Createdate: { type: String, required: true }
 })
 
